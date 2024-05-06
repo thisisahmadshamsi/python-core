@@ -7,7 +7,7 @@ if [ $# -eq 0 ]; then
 fi
 
 PROJECT_NAME=$1
-VENV_PATH="/home/$USER/virtualenv/$PROJECT_NAME"
+VENV_PATH="./$PROJECT_NAME"
 
 # Check if the virtual environment already exists
 if [ ! -d "$VENV_PATH" ]; then
